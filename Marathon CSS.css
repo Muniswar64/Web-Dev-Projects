@@ -1,0 +1,88 @@
+body {
+    border: 3px solid black;
+}
+
+h3 {
+    color: rgb(6, 6, 110);
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    color: rgb(6, 6, 110);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section label {
+    color: rgb(6, 6, 110);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section input {
+    background-color: rgb(252, 245, 237);
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 25vw;
+    width: 20vw;
+    height: 3vh;
+}
+
+section input:hover {
+    color: Black;
+    background-color: rgb(252, 176, 148);
+    font-weight: 600;
+}
+
+#slt {
+    background-color: rgb(252, 245, 237);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#slt:hover,
+button:hover {
+    color: Black;
+    background-color: rgb(252, 176, 148);
+    font-weight: 600;
+}
+
+#slt:active {
+    color: Black;
+    background-color: greenyellow;
+}
+
+article label {
+    color: rgb(6, 6, 110);
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.9;
+    text-align: center;
+    padding: 3px, 10px;
+}
+
+article label:hover {
+    font-weight: 600;
+}
+
+input[type="radio"] {
+    color: deeppink;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button {
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:active {
+    color: Black;
+    background-color: greenyellow;
+    font-weight: 600;
+}

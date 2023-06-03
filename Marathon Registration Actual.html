@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>&#127939; Marathon Login</title>
+    <link rel="stylesheet" href="Marathon CSS.css">
+</head>
+
+<body>
+    <center>
+        <h3>&#127939; Marathon Registration &#127939;</h3>
+        <form action="/registration/">
+            <section>
+                <label for="first"><b>Enter First name:</b></label>
+                <input type="text" id="first" name="first_name" placeholder="First name" required><br>
+                <br>
+                <label for="last"><b>Enter Last name:</b></label>
+                <input type="text" id="last" name="last_name" placeholder="Last name" required><br>
+            </section>
+            <h4>Select your Race:</h4>
+            <article>
+                <input type="radio" id="1600m" name="race" value="Mile" required>
+                <label for="1600m"> Mile</label>
+                <br>
+                <input type="radio" id="2500m" name="race" value="2.5 KM" required>
+                <label for="2500m"> 2.5 KM</label>
+                <br>
+                <input type="radio" id="5000m" name="race" value="5 KM" required>
+                <label for="5000m"> 5 KM</label>
+                <br>
+                <br>
+            </article>
+            <section>
+                <label for="eml"><b>Email:</b></label>
+                <input type="email" id="eml" name="email" placeholder="@xyz" required>
+                <br>
+                <br>
+                <label for="pwd"><b>Password:</b></label>
+                <input type="password" id="pwd" placeholder="Password" minlength="5" maxlength="16" required>
+                <br>
+                <br>
+                <label for="slt"><b>Select your Age level:</b></label>
+                <select id="slt" name="selected_age" required>
+                    <option value="">--age--</option>
+                    <option value="below_18">Below 18</option>
+                    <option value="below_30">Below 30</option>
+                    <option value="Above_30">Above 30</option>
+                    <option value="Above_50">Above 50</option>
+                </select>
+                <br>
+                <br>
+            </section>
+            <button>Submit!</button>
+        </form>
+    </center>
+
+</body>
+
+</html>
